@@ -1,6 +1,6 @@
 def square_array(array)
-  square_array = []
+  squared_array = []
   array.each do |num|
-    square_array.push(num*num)
+    squared_array.push(num*num)
 end
-return square_array
+return squared_array
